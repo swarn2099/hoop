@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>cheeseballs</Text>
+      <Text style={{ color: "red"}}>cheeseballs</Text>
       {/* <StatusBar style="auto" /> */}
     </View>
   );
