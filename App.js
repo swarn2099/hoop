@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>This will be the Hoop app</Text>
+      <Text style={{ color: "red"}}>This will be the Hoop app</Text>
       {/* <StatusBar style="auto" /> */}
     </View>
   );
